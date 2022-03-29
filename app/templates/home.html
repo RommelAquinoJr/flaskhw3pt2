@@ -1,0 +1,17 @@
+<html>
+	<body>
+		<h1>Welcome {{ name.name }}!</h1>
+		<a href="www.google.com">not google</a>
+		<ul>
+		{% for city_name in city_names %}
+			<li>{{city_name}}</li>
+		{% endfor %}
+		</ul>
+		<form action ="/">
+			<Label for="city">City Name</Label>
+		<br>
+			<input type="text" maxlength="32"><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
