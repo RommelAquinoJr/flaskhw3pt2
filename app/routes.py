@@ -1,8 +1,8 @@
-from app import myapp_obj
+from app import myobj
 from flask import render_template, flash
 
 
-@myapp_obj.route("/")
+@myobj.route("/")
 
 def home():
 	name = {'name': 'Lisa'}
