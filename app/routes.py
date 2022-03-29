@@ -8,5 +8,5 @@ def home():
 	#name = {'name': 'Lisa'}
 	#city_names = ['Paris', 'London', 'Rome', 'Tahiti']
 	return render_template('home.html',city_names = city_names, name=name)
-name = {'name': 'Lisa'}
+name = 'Lisa'
 city_names = ['Paris', 'London', 'Rome', 'Tahiti']
