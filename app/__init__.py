@@ -1,9 +1,9 @@
 from flask import Flask
-from config import config
+from config import Config
 
 myobj = Flask(__name__)
 myobj.config.from_mapping(
-  SECRET_KEY = 'you-will-never-guess'
+  SECRET_KEY = 'potatoes'
 )
 
 from app import routes
