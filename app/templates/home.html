@@ -13,5 +13,8 @@
 			<input id="city" type="text" maxlength="32"><br><br>
 			<input type="submit" value="Submit">
 		</form>
+		{%for message in get_flashed_messages() %}
+		<h1>{{ message }}</h1>
+		{% endfor %}
 	</body>
 </html>
